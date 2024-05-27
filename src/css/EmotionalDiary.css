@@ -1,0 +1,124 @@
+.diary-container {
+    margin-top: 50px;
+    padding: 0 15px;
+  }
+  
+  .date-picker {
+    margin-bottom: 20px;
+  }
+  
+  .emotion-picker {
+    margin-bottom: 20px;
+  }
+  
+  .emotion-icon {
+    cursor: pointer;
+    color: gray;
+  }
+  
+  .emotion-icon.selected {
+    color: rgb(128, 58, 203);
+  }
+  
+  /* Media Queries for Mobile Devices */
+  @media (max-width: 768px) {
+    .diary-container {
+      margin-top: 30px;
+      padding: 0 10px;
+    }
+  
+    .emotion-picker .text-center {
+      flex-wrap: wrap;
+    }
+  
+    .emotion-picker .text-center .col {
+      flex: 0 0 33.3333%;
+      max-width: 33.3333%;
+    }
+  
+    .emotion-picker .text-center .col p {
+      font-size: 12px;
+    }
+  
+    .emotion-icon {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .diary-container {
+      margin-top: 20px;
+      padding: 0 5px;
+    }
+  
+    .emotion-picker .text-center .col {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    .emotion-icon {
+      font-size: 1.2em;
+    }
+  }
+  
+  .custom-input {
+    background-color: rgb(73 69 65) !important;
+    color: white !important;
+  }
+  .save-button-container {
+    text-align: center;
+  }
+  
+  .save-button {
+    background-color: #ff4081; /* Pink color */
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .save-button i {
+    font-size: 24px;
+  }
+  
+  .save-button p {
+    margin-top: 10px;
+    color: #ff4081; /* Pink color */
+    font-size: 16px;
+  }
+  
+  /* Adjust sizes for mobile devices */
+  @media (max-width: 768px) {
+    .save-button {
+      padding: 15px;
+      font-size: 20px;
+    }
+  
+    .save-button i {
+      font-size: 20px;
+    }
+  
+    .save-button p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .save-button {
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    .save-button i {
+      font-size: 16px;
+    }
+  
+    .save-button p {
+      font-size: 12px;
+    }
+  }
+  
+  

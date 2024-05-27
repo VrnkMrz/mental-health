@@ -1,0 +1,25 @@
+.diary-entry {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+  .diary-date-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .diary-emotion {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .diary-message {
+    font-size: 16px;
+  }
+  
