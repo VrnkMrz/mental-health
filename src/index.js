@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './modules/Login';
 import EmotionalDiary from './modules/EmotionalDiary';
 import DiaryPage from './modules/DiaryPage';
+import CalendarPage from './modules/CalendarPage';
+import UserInfo from './modules/UserInfo'
 
 const rootElement = document.getElementById('root');
 
@@ -17,7 +19,8 @@ if (rootElement) {
           <Route path="/" element={<Login />} />
           <Route path="/diary" element={<EmotionalDiary />} />
           <Route path="/entries" element={<DiaryPage />} />
-
+          <Route path="/calendar" element={<CalendarPage />} />
+          <Route path="/userinfo" element={<UserInfo />} />
         </Routes>
       </React.StrictMode>
     </Router>

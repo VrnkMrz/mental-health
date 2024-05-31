@@ -78,3 +78,12 @@
     }
   }
   
+  .footer-btn{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    outline: none; 
+  }

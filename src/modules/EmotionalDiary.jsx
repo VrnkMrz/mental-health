@@ -5,6 +5,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import uk from 'date-fns/locale/uk';
 import { useNavigate } from 'react-router-dom';
 import '../css/EmotionalDiary.css';
+import Footer from './Footer.jsx'
 
 registerLocale('uk', uk);
 
@@ -19,6 +20,7 @@ function EmotionalDiary() {
   };
 
   return (
+    <>
     <MDBContainer fluid className="diary-container">
     <MDBRow className="justify-content-center">
       <MDBCol md="6">
@@ -78,6 +80,8 @@ function EmotionalDiary() {
       </MDBCol>
     </MDBRow>
   </MDBContainer>
+  <Footer/>
+  </>
   );
 };
 

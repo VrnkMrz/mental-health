@@ -1,0 +1,36 @@
+.emotion-calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emotion-calendar .react-calendar {
+  width: 100%;
+  max-width: 800px;
+  background-color: #333;
+  border: 1px solid #222;
+  color: white;
+}
+
+.emotion-calendar .react-calendar__tile {
+  max-height: 100px;
+  padding: 10px;
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+  .emoji {
+    font-size: 20px;
+  }
+  
+  .emoji-smile {
+    color: yellow;
+  }
+  
+  .emoji-sad {
+    color: blue;
+  }
+  
