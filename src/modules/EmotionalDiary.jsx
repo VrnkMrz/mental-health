@@ -24,7 +24,7 @@ function EmotionalDiary() {
     <MDBContainer fluid className="diary-container">
     <MDBRow className="justify-content-center">
       <MDBCol md="6">
-        <MDBCard className='bg-dark text-white'>
+        <MDBCard className='text-white' style={{ backgroundColor: '#333' }}>
           <MDBCardBody className='p-5 mx-auto w-100'>
             <h2 className="text-center">Як ти?</h2>
             <div className="date-picker">
